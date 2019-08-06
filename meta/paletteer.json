@@ -1,0 +1,9 @@
+{
+  "name": "paletteer",
+  "author": "Emil Hvitfeldt",
+  "license": "CC0",
+  "raster": "https://github.com/EmilHvitfeldt/hex-stickers/blob/master/PNG/paletteer.png",
+  "vector": "https://github.com/EmilHvitfeldt/hex-stickers/blob/master/SVG/paletteer.svg",
+  "description": "paletteer: Collection of most color palettes in a single R package.",
+  "filename": "meta/paletteer.json"
+}
