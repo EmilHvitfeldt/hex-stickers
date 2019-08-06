@@ -1,0 +1,9 @@
+{
+  "name": "horus",
+  "author": "Emil Hvitfeldt",
+  "license": "CC0",
+  "raster": "https://github.com/EmilHvitfeldt/hex-stickers/blob/master/PNG/horus.png",
+  "vector": "https://github.com/EmilHvitfeldt/hex-stickers/blob/master/SVG/horus.svg",
+  "description": "horus: Visual tools to help machine learning model selection.",
+  "filename": "meta/horus.json"
+}
