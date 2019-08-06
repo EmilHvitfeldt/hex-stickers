@@ -1,0 +1,9 @@
+{
+  "name": "ggpage",
+  "author": "Emil Hvitfeldt",
+  "license": "CC0",
+  "raster": "https://github.com/EmilHvitfeldt/hex-stickers/blob/master/PNG/ggpage.png",
+  "vector": "https://github.com/EmilHvitfeldt/hex-stickers/blob/master/SVG/ggpage.svg",
+  "description": "ggpage: Creates Page Layout Visualizations in R.",
+  "filename": "meta/ggpage.json"
+}
