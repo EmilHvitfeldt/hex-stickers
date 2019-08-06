@@ -1,0 +1,9 @@
+{
+  "name": "textdata",
+  "author": "Emil Hvitfeldt",
+  "license": "CC0",
+  "raster": "https://github.com/EmilHvitfeldt/hex-stickers/blob/master/PNG/textdata.png",
+  "vector": "https://github.com/EmilHvitfeldt/hex-stickers/blob/master/SVG/textdata.svg",
+  "description": "textdata: Download, parse, store, and load text datasets instead of storing it in packages .",
+  "filename": "meta/textdata.json"
+}
