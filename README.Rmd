@@ -3,7 +3,7 @@ output: github_document
 ---
 
 # hex-stickers
-
+ 
 ```{r echo=FALSE, message=FALSE}
 # https://github.com/mitchelloharawild/hexwall
 # Dependencies
