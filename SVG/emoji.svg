@@ -10,7 +10,7 @@
  </defs>
  <use id="border" xlink:href="#image-1" x="0px" y="3px" width="2206px" height="2547px"/>
  <defs>
-  <text id="string" transform="matrix(1.0 0.0 0.0 1.0 -393.0 912.0)" fill="#014720" y="581.0" font-size="600" text-decoration="none" x="583.7" font-family="Montserrat-Black, Montserrat">emoji</text>
+  <text id="string" transform="matrix(1.0 0.0 0.0 1.0 -393.0 817.0)" x="583.7" font-size="600" text-decoration="none" fill="#014720" y="581.0" font-family="Montserrat-Black, Montserrat">emoji</text>
  </defs>
  <use id="emoji-1" xlink:href="#string"/>
 </svg>
