@@ -2,7 +2,7 @@
 output: github_document
 ---
 
-# hex-stickers
+# hex-stickers 
 
 [![emilverse](https://img.shields.io/badge/emilverse-packages-blue.svg)](http://github.com/emilhvitfeldt/emilverse)
 
@@ -20,7 +20,7 @@ library(purrr)
 # scale_coords:     Should the coordinates be scaled to the hexagon size?
 # remove_size:      Should hexagons of an abnormal size be removed?
 # sort_mode:        How should the files be sorted?
-hexwall <- function(path, sticker_row_size = 3, sticker_width = 500, remove_small = TRUE, total_stickers = NULL, remove_size = TRUE,
+hexwall <- function(path, sticker_row_size = 4, sticker_width = 500, remove_small = TRUE, total_stickers = NULL, remove_size = TRUE,
                     coords = NULL, scale_coords = TRUE, sort_mode = c("filename", "random", "color", "colour")){
   sort_mode <- match.arg(sort_mode)
   
@@ -105,9 +105,7 @@ hexwall <- function(path, sticker_row_size = 3, sticker_width = 500, remove_smal
     row_lens[length(row_lens)] <- row_lens[length(row_lens)]  - (length(stickers) - sum(row_lens))
     sticker_rows <- map2(row_lens, cumsum(row_lens),
                          ~ seq(.y-.x+1, by = 1, length.out = .x)) %>%
-      map(~ stickers[.x] %>%
-            invoke(c, .) %>%
-            image_append)
+      map(~ stickers[.x] %>% invoke(c, .) %>% image_append())
     
     # Add stickers to canvas
     canvas <- image_blank(sticker_row_size*sticker_width, 
