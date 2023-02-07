@@ -6,7 +6,7 @@ output: github_document
 
 [![emilverse](https://img.shields.io/badge/emilverse-packages-blue.svg)](http://github.com/emilhvitfeldt/emilverse)
 
-```{r echo=FALSE, message=FALSE} 
+```{r echo=FALSE, message=FALSE, warning=FALSE} 
 # https://github.com/mitchelloharawild/hexwall
 # Dependencies
 library(magick)
