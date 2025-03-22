@@ -166,7 +166,7 @@ hexwall <- function(path,
           dx <- diff(sort(abs(x)))
           x / min(dx[dx != 0])
         }) %>%
-        mutate(y = y / min(diff(y)[diff(y) != 0])) %>%
+       # mutate(y = y / min(diff(y)[diff(y) != 0])) %>%
         mutate(
           x = x * sticker_width / 2,
           y = abs(y - max(y)) * sticker_height / 1.33526
@@ -192,5 +192,29 @@ hexwall("PNG")
 ```
 
 All the hex logos as either [PNG](PNG/) or [SVG](SVG/).
+
+All stickers are under with [CC0](LICENSE.md).
+
+# Cat tidymodels
+
+```{r cat-hexwall, echo=FALSE, message=FALSE, warning=FALSE} 
+hexwall(
+  "cats/1x/", 
+coords = tibble::tribble(
+  ~x, ~y,
+  1, 2, # broom
+  4, 3, # dials
+  5, 2, # parsnip
+  4, 1, # poissonreg
+  3, 2, # recipes
+  6, 3, # rsample
+  2, 1, # stacks
+  2, 3, # tune
+  6, 1, # workflows
+  7, 2  # yardstick
+))
+```
+
+All the hex logos as either [PNG](cats/x1/) or [SVG](cats/SVG/).
 
 All stickers are under with [CC0](LICENSE.md).
