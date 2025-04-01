@@ -215,6 +215,6 @@ coords = tibble::tribble(
 ))
 ```
 
-All the hex logos as either [PNG](cats/x1/) or [SVG](cats/SVG/).
+All the hex logos as either [PNG](cats/1x/) or [SVG](cats/SVG/).
 
 All stickers are under with [CC0](LICENSE.md).
