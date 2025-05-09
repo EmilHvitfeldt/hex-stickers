@@ -17,6 +17,7 @@ data %>%
   geom_voronoi_segment() +
   coord_fixed() +
   scale_fill_gradientn(colors = hcl.colors(256, "Temps")) +
-  theme_void()
+  theme_void() +
+  guides(fill = "none")
 
-##ggsave("filename", height = 10, width = 10, dpi = 320)
+# ggsave("filename.svg", height = 10, width = 10, dpi = 320)
