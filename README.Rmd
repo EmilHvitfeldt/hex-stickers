@@ -2,11 +2,11 @@
 output: github_document
 ---
 
-# hex-stickers 
+# hex-stickers
 
 [![emilverse](https://img.shields.io/badge/emilverse-packages-blue.svg)](http://github.com/emilhvitfeldt/emilverse)
 
-```{r hexwall, echo=FALSE, message=FALSE, warning=FALSE} 
+```{r hexwall, echo=FALSE, message=FALSE, warning=FALSE}
 # Rewritten from
 # https://github.com/mitchelloharawild/hexwall
 # Dependencies
@@ -197,21 +197,22 @@ All stickers are under with [CC0](LICENSE.md).
 
 # Cat tidymodels
 
-```{r cat-hexwall, echo=FALSE, message=FALSE, warning=FALSE} 
+```{r cat-hexwall, echo=FALSE, message=FALSE, warning=FALSE}
 hexwall(
   "cats/1x/", 
 coords = tibble::tribble(
   ~x, ~y,
-  1, 2, # broom
-  4, 3, # dials
-  5, 2, # parsnip
-  4, 1, # poissonreg
-  3, 2, # recipes
-  6, 3, # rsample
-  2, 1, # stacks
-  2, 3, # tune
-  6, 1, # workflows
-  7, 2  # yardstick
+  7, 3, # broom
+  6, 2, # dials
+  5, 1, # parsnip
+  7, 1, # poissonreg
+  1, 3, # recipes
+  3, 1, # rsample
+  5, 3, # stacks
+  2, 2, # tidymodels
+  4, 2, # tune
+  1, 1, # workflows
+  3, 3  # yardstick
 ))
 ```
 
