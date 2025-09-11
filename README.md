@@ -25,3 +25,7 @@ All stickers are under with [CC0](LICENSE.md).
 All the hex logos as either [PNG](cats/1x/) or [SVG](cats/SVG/).
 
 All stickers are under with [CC0](LICENSE.md).
+
+Sticker sheet file is found [here](cats/HexStickerSheet-Tinymodels.ai)
+
+![](cats/sticker-sheet.png)
