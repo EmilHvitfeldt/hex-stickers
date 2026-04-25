@@ -199,7 +199,7 @@ All stickers are under with [CC0](LICENSE.md).
 
 ```{r cat-hexwall, echo=FALSE, message=FALSE, warning=FALSE}
 hexwall(
-  "cats/1x/", 
+  "cats/PNG/", 
 coords = tibble::tribble(
   ~x, ~y,
   7, 3, # broom
@@ -209,14 +209,15 @@ coords = tibble::tribble(
   1, 3, # recipes
   3, 1, # rsample
   5, 3, # stacks
+  2, 4, # tidyclust
   2, 2, # tidymodels
   4, 2, # tune
   1, 1, # workflows
-  3, 3  # yardstick
+  3, 3 # yardstick
 ))
 ```
 
-All the hex logos as either [PNG](cats/1x/) or [SVG](cats/SVG/).
+All the hex logos as either [PNG](cats/PNG/) or [SVG](cats/SVG/).
 
 All stickers are under with [CC0](LICENSE.md).
 

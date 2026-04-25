@@ -13,7 +13,7 @@ All stickers are under with [CC0](LICENSE.md).
 
 <img src="README_files/figure-gfm/cat-hexwall-1.png" alt="" width="2000" />
 
-All the hex logos as either [PNG](cats/1x/) or [SVG](cats/SVG/).
+All the hex logos as either [PNG](cats/PNG/) or [SVG](cats/SVG/).
 
 All stickers are under with [CC0](LICENSE.md).
 
